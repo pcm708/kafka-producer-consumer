@@ -4,7 +4,10 @@ Starting Zookeeper from terminal window: zookeeper-server-start.sh ~/kafka/con
 
 To start Kafka without zookeeper:
 
-If you face any issue related to meta.properties file 1. kafka-storage.sh random-uuid 2. kafka-storage.sh format -t zwyspu16SR-_t87T2Uhe_A -c ~/kafka/config/kraft/server.properties  kafka-server-start.sh ~/kafka/config/kraft/server.properties
+If you face any issue related to meta.properties file 
+1. kafka-storage.sh random-uuid
+2. kafka-storage.sh format -t uuid -c ~/kafka/config/kraft/server.properties
+3.  kafka-server-start.sh ~/kafka/config/kraft/server.properties
 
 Topics CLI:
 
