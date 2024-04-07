@@ -1,3 +1,10 @@
+## High level diagram
+
+![Screenshot 2024-04-07 at 3 36 38 PM](https://github.com/pcm708/kafka-producer-consumer/assets/52307892/f3254dea-fcdd-4192-b256-4d628ac79a7e)
+
+
+
+
 KAFKA ESSENTIALS
 
 Starting Zookeeper from terminal window: zookeeper-server-start.sh ~/kafka/config/zookeeper.properties  Starting Kafka server from terminal window: kafka-server-start.sh ~/kafka/config/server.properties
